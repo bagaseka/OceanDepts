@@ -52,9 +52,20 @@
   animation: pressurePulse 4s ease-in-out infinite;
 }
 
+/* Touch-friendly improvements */
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
 /* Custom scrollbar with temperature colors */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+}
+
+@media (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 }
 
 ::-webkit-scrollbar-track {
@@ -94,4 +105,65 @@
 
 .depth-blur-heavy {
   filter: blur(2px);
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 640px) {
+  /* Ensure text is readable on small screens */
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Improve touch targets */
+  button, a, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Prevent zoom on input focus */
+  input, select, textarea {
+    font-size: 16px;
+  }
+  
+  /* Smooth scrolling for mobile */
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Landscape mobile adjustments */
+@media (max-width: 896px) and (orientation: landscape) {
+  .min-h-screen {
+    min-height: 100vh;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Sharper text rendering */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-caustics,
+  .animate-thermal,
+  .animate-ice,
+  .animate-pressure,
+  .animate-bounce,
+  .animate-pulse {
+    animation: none;
+  }
+  
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
