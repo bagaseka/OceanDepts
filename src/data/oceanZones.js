@@ -29,7 +29,7 @@ export const oceanZones = [
       },
       {
         name: "Clownfish",
-        image: "https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg",
+        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?_gl=1*975tmd*_ga*MTM4NTMzNzU2LjE3NTAzODIyNDA.*_ga_8JE65Q40S6*czE3NTAzODIyMzkkbzEkZzEkdDE3NTAzODIyNTIkajQ3JGwwJGgw",
         description: "Colorful reef fish living symbiotically with sea anemones for protection.",
         size: "7-11 cm",
         habitat: "Coral reefs",
@@ -38,7 +38,7 @@ export const oceanZones = [
       },
       {
         name: "Coral Polyps",
-        image: "https://images.pexels.com/photos/2404370/pexels-photo-2404370.jpeg",
+        image: "https://images.pexels.com/photos/920160/pexels-photo-920160.jpeg",
         description: "Tiny animals that build massive reef structures over thousands of years.",
         size: "1-3mm",
         habitat: "Shallow tropical waters",
@@ -47,7 +47,7 @@ export const oceanZones = [
       },
       {
         name: "Great White Shark",
-        image: "https://images.pexels.com/photos/544551/pexels-photo-544551.jpeg",
+        image: "https://images.pexels.com/photos/18659794/pexels-photo-18659794.jpeg",
         description: "Apex predator with incredible hunting abilities and electroreception.",
         size: "4-6 meters",
         habitat: "Coastal waters worldwide",
@@ -56,7 +56,7 @@ export const oceanZones = [
       },
       {
         name: "Manta Ray",
-        image: "https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg",
+        image: "https://images.pexels.com/photos/5547006/pexels-photo-5547006.jpeg",
         description: "Gentle giants that filter-feed on plankton with their massive wingspan.",
         size: "3-7 meters wingspan",
         habitat: "Tropical and subtropical waters",
@@ -65,7 +65,7 @@ export const oceanZones = [
       },
       {
         name: "Parrotfish",
-        image: "https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg",
+        image: "https://images.pexels.com/photos/9004436/pexels-photo-9004436.jpeg",
         description: "Colorful fish that eat algae from coral and produce sand through digestion.",
         size: "30-120 cm",
         habitat: "Coral reefs",
@@ -74,7 +74,7 @@ export const oceanZones = [
       },
       {
         name: "Sea Otter",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://images.pexels.com/photos/31301889/pexels-photo-31301889.jpeg",
         description: "Marine mammals that use tools and float on their backs while eating.",
         size: "1-1.5 meters",
         habitat: "Kelp forests and coastal waters",
@@ -83,7 +83,7 @@ export const oceanZones = [
       },
       {
         name: "Jellyfish",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg",
         description: "Ancient gelatinous creatures that have survived for over 500 million years.",
         size: "1cm - 2 meters",
         habitat: "All ocean zones",
@@ -92,7 +92,7 @@ export const oceanZones = [
       },
       {
         name: "Kelp",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://images.pexels.com/photos/12829689/pexels-photo-12829689.jpeg",
         description: "Giant brown algae that forms underwater forests and grows incredibly fast.",
         size: "Up to 60 meters",
         habitat: "Cold, nutrient-rich waters",
@@ -128,7 +128,7 @@ export const oceanZones = [
     marineLife: [
       {
         name: "Lanternfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://marinesanctuary.org/wp-content/uploads/2019/10/Lanternfish-_-SEFSC-Pascagoula-Laboratory-Collection-of-Brandi-Noble-NOAA-NMFS-SEFSC.jpg",
         description: "Small bioluminescent fish that migrate vertically each day, forming the deep scattering layer.",
         size: "2-30 cm",
         habitat: "Open ocean twilight zone",
@@ -137,7 +137,7 @@ export const oceanZones = [
       },
       {
         name: "Vampire Squid",
-        image: "https://images.pexels.com/photos/3046637/pexels-photo-3046637.jpeg",
+        image: "https://www.aquariumofpacific.org/images/olc/Vamp_squid.jpg",
         description: "A unique cephalopod that can turn itself inside out when threatened, feeding on marine snow.",
         size: "15-30 cm",
         habitat: "Oxygen minimum zones",
@@ -146,7 +146,7 @@ export const oceanZones = [
       },
       {
         name: "Hatchetfish",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://www.fishi-pedia.com/wp-content/uploads/2019/02/Gasteropelecus-maculatus-2.jpg",
         description: "Silver fish with light-producing organs on their bellies for camouflage.",
         size: "2-12 cm",
         habitat: "Mid-water depths",
@@ -155,7 +155,7 @@ export const oceanZones = [
       },
       {
         name: "Barreleye Fish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://www.montereybayaquarium.org/globalassets/mba/images/animals/deep-sea/mbari-owned/barreleye-macropinna_microstoma-mbari.jpg?width=608&height=404&mode=crop&format=webp&quality=60",
         description: "Transparent-headed fish with tubular eyes that can rotate upward to spot prey.",
         size: "15 cm",
         habitat: "600-800m depth",
@@ -164,7 +164,7 @@ export const oceanZones = [
       },
       {
         name: "Bristlemouth",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://twilightzone.whoi.edu/wp-content/uploads/2020/03/Elongated-bristlemouthSigmops-elongatus.jpg",
         description: "The most abundant vertebrate on Earth, with billions living in the twilight zone.",
         size: "2-8 cm",
         habitat: "Deep ocean waters",
@@ -173,7 +173,7 @@ export const oceanZones = [
       },
       {
         name: "Cookiecutter Shark",
-        image: "https://images.pexels.com/photos/544551/pexels-photo-544551.jpeg",
+        image: "https://media.australian.museum/media/dd/images/Large-tooth_Cookie-cutter_Shark_Isistius_plut.width-1600.709f1aa.jpg",
         description: "Small shark that takes circular bites from larger marine animals.",
         size: "42-56 cm",
         habitat: "Tropical and warm waters",
@@ -182,7 +182,7 @@ export const oceanZones = [
       },
       {
         name: "Siphonophore",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://static.wikia.nocookie.net/marine/images/9/97/Galaxy-siph-v3571-2.jpg/revision/latest/scale-to-width-down/1000?cb=20190527150528",
         description: "Colonial organisms that can stretch longer than blue whales.",
         size: "Up to 40 meters",
         habitat: "Open ocean",
@@ -191,7 +191,7 @@ export const oceanZones = [
       },
       {
         name: "Sperm Whale",
-        image: "https://images.pexels.com/photos/64219/dolphin-marine-mammals-water-sea-64219.jpeg",
+        image: "https://c02.purpledshub.com/uploads/sites/62/2023/05/Sperm-whale-4e62454.jpg?w=1175&webp=1",
         description: "Deep-diving whales that hunt giant squid in the twilight zone.",
         size: "11-20 meters",
         habitat: "Deep ocean waters",
@@ -227,7 +227,7 @@ export const oceanZones = [
     marineLife: [
       {
         name: "Anglerfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/02/10/USAT/78385535007-trnd-deep-sea-angler-fish-spotted-thumb.jpg?crop=1919,1079,x0,y0&width=1320&height=742&format=pjpg&auto=webp",
         description: "Predatory fish with a bioluminescent lure to attract prey in the complete darkness.",
         size: "20 cm - 1 meter",
         habitat: "Deep ocean waters",
@@ -236,7 +236,7 @@ export const oceanZones = [
       },
       {
         name: "Giant Squid",
-        image: "https://images.pexels.com/photos/3046637/pexels-photo-3046637.jpeg",
+        image: "https://i0.wp.com/onwildlife.org/wp-content/uploads/2024/07/giant-squid-underwater.jpg?resize=1024%2C768&ssl=1",
         description: "Legendary deep-sea cephalopod with the largest eyes in the animal kingdom.",
         size: "10-13 meters",
         habitat: "Deep ocean waters",
@@ -245,7 +245,7 @@ export const oceanZones = [
       },
       {
         name: "Gulper Eel",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoZA8ZTNGPRaxggUehmIsThoXtLGvVS4yAm8CoRoiTEdw3YSA-v1eHRAgJWO6Uv364WZS7rnld5ozTpMTvj2MiP1vB4DEapcFd2oUhQB2vTF-cHgl6VCMkn3Y_qMx8QhIUEG0nVORDEmYp/s1600/gulper_eel_saccopharynx.jpg",
         description: "Eel with a massive expandable mouth that can swallow prey larger than itself.",
         size: "60-75 cm",
         habitat: "Deep mid-water",
@@ -254,7 +254,7 @@ export const oceanZones = [
       },
       {
         name: "Viperfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Head_of_a_pacific_Viperfish_4037.jpg/1920px-Head_of_a_pacific_Viperfish_4037.jpg",
         description: "Predator with needle-like teeth and a bioluminescent lure on its dorsal fin.",
         size: "30-60 cm",
         habitat: "Deep ocean",
@@ -263,7 +263,7 @@ export const oceanZones = [
       },
       {
         name: "Fangtooth Fish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "http://montereybayaquarium.org/globalassets/mba/images/animals/fishes/fangtooth-ap091.jpg?format=webp&quality=60",
         description: "Fish with the largest teeth relative to body size of any marine animal.",
         size: "15-18 cm",
         habitat: "Deep ocean waters",
@@ -272,7 +272,7 @@ export const oceanZones = [
       },
       {
         name: "Blobfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://fpk.unair.ac.id/wp-content/uploads/2022/09/blobfish.webp",
         description: "Gelatinous fish that looks normal at depth but becomes blob-like at surface pressure.",
         size: "30 cm",
         habitat: "Deep waters off Australia",
@@ -281,7 +281,7 @@ export const oceanZones = [
       },
       {
         name: "Giant Isopod",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://en.wikipedia.org/wiki/Giant_isopod#/media/File:Bathynomus_kensleyi_and_Bathynomus_doederleinii_NMMBA.jpg",
         description: "Giant deep-sea crustaceans related to pill bugs that can survive years without food.",
         size: "20-50 cm",
         habitat: "Deep ocean floor",
@@ -290,7 +290,7 @@ export const oceanZones = [
       },
       {
         name: "Colossal Squid",
-        image: "https://images.pexels.com/photos/3046637/pexels-photo-3046637.jpeg",
+        image: "https://static.wikia.nocookie.net/fictionrulezforever/images/0/08/Colossal_Squid.jpg/revision/latest/scale-to-width-down/1000?cb=20230518123252",
         description: "Even larger than giant squid, with rotating hooks on their tentacles.",
         size: "12-14 meters",
         habitat: "Antarctic deep waters",
@@ -299,7 +299,7 @@ export const oceanZones = [
       },
       {
         name: "Deep-sea Dragonfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2019/06/d3b86214-a66f-4359-9e53-fdcfd533a155-large16x9-ap19155755177085-1559809077.jpg",
         description: "Bioluminescent predator with a chin barbel that acts as a fishing lure.",
         size: "15-32 cm",
         habitat: "Deep ocean waters",
@@ -335,7 +335,7 @@ export const oceanZones = [
     marineLife: [
       {
         name: "Dumbo Octopus",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://www.nhm.ac.uk/content/dam/nhm-www/discover/dumbo-octopus/dumbo-octopus-seafloor-two-column.jpg.thumb.1920.1920.png",
         description: "Deep-sea octopus with ear-like fins that lives at extreme depths, the deepest-living octopus.",
         size: "20-30 cm",
         habitat: "Abyssal plains",
@@ -344,7 +344,7 @@ export const oceanZones = [
       },
       {
         name: "Sea Pig",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://media.wired.com/photos/593256cdb8eb31692072ed3e/3:2/w_1920,c_limit/Sea-Pig1.jpg",
         description: "Deep-sea sea cucumbers that move in herds across the abyssal seafloor, feeding on organic matter.",
         size: "10-15 cm",
         habitat: "Abyssal seafloor",
@@ -353,7 +353,7 @@ export const oceanZones = [
       },
       {
         name: "Tripod Fish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://azure2.wgp-cdn.co.uk/app-practicalfishkeeping/news/4d092ef353f82.jpg?&format=webp&webp.quality=40&scale=both",
         description: "Fish that stands on the seafloor using elongated fins like stilts to catch food.",
         size: "30-40 cm",
         habitat: "Abyssal seafloor",
@@ -362,7 +362,7 @@ export const oceanZones = [
       },
       {
         name: "Giant Tube Worms",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://www.mbari.org/wp-content/uploads/2020/07/Riftia_pachyptila_T522_04_riftia4.jpg",
         description: "Massive worms living around hydrothermal vents, with no mouth or stomach.",
         size: "1-2 meters",
         habitat: "Hydrothermal vents",
@@ -371,7 +371,7 @@ export const oceanZones = [
       },
       {
         name: "Yeti Crab",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://www.mbari.org/wp-content/uploads/2016/01/yeti-crab-photo-350.jpg",
         description: "Hairy crab discovered near hydrothermal vents with bacteria-covered claws.",
         size: "15 cm",
         habitat: "Hydrothermal vents",
@@ -380,7 +380,7 @@ export const oceanZones = [
       },
       {
         name: "Abyssal Grenadier",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://pbs.twimg.com/media/FZNKruPUIAEZOjv?format=jpg&name=900x900",
         description: "Most common fish in the abyssal zone, with a large head and tapering body.",
         size: "30-150 cm",
         habitat: "Abyssal plains",
@@ -389,7 +389,7 @@ export const oceanZones = [
       },
       {
         name: "Deep-sea Mushroom",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/92DF/production/_89899573_dendrogrammaenigmatica_1_credithughmacintosh.jpg.webp",
         description: "Mysterious mushroom-shaped organisms found on the deep seafloor.",
         size: "1-2 cm",
         habitat: "Deep ocean floor",
@@ -398,7 +398,7 @@ export const oceanZones = [
       },
       {
         name: "Glass Sponge",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://oceanconservancy.org/wp-content/uploads/2023/11/glass-sponge-1024x571.webp",
         description: "Ancient sponges with skeletons made of silica that can live for thousands of years.",
         size: "Up to 1 meter",
         habitat: "Deep ocean floor",
@@ -407,7 +407,7 @@ export const oceanZones = [
       },
       {
         name: "Zombie Worm",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/120703-ZombieWormPhoto-hmed-0140p_files.jpg",
         description: "Bone-eating worms that dissolve whale bones with acid to access nutrients.",
         size: "1-7 cm",
         habitat: "Whale falls",
@@ -443,7 +443,7 @@ export const oceanZones = [
     marineLife: [
       {
         name: "Snailfish",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://images.theconversation.com/files/521579/original/file-20230418-18-25ec26.jpg?ixlib=rb-4.1.0&rect=7%2C9%2C1014%2C527&q=45&auto=format&w=926&fit=clip",
         description: "The deepest-living fish ever recorded, found at depths over 8,000 meters.",
         size: "10-25 cm",
         habitat: "Ocean trenches",
@@ -452,7 +452,7 @@ export const oceanZones = [
       },
       {
         name: "Amphipod",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://emso.eu/wp-content/uploads/2020/04/Eurythenes.jpg",
         description: "Small crustaceans that thrive in the deepest ocean trenches, some growing unusually large.",
         size: "1-34 cm",
         habitat: "Hadal trenches",
@@ -461,7 +461,7 @@ export const oceanZones = [
       },
       {
         name: "Xenophyophore",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/XenophyophoreNOAA.jpg",
         description: "Giant single-celled organisms that can grow to the size of dinner plates.",
         size: "10-20 cm",
         habitat: "Trench floors",
@@ -470,7 +470,7 @@ export const oceanZones = [
       },
       {
         name: "Barophilic Bacteria",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://cdn.serc.carleton.edu/images/microbelife/Subsurface_remnants_of_bacterial_metabolism.jpg",
         description: "Pressure-loving microorganisms that can only survive under extreme pressure.",
         size: "Microscopic",
         habitat: "Extreme depths",
@@ -479,7 +479,7 @@ export const oceanZones = [
       },
       {
         name: "Hadal Cusk Eel",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://www.mbari.org/wp-content/uploads/Spectrunculus_grandis_T0426_01_1150.jpg",
         description: "Eel-like fish adapted to extreme pressure in the deepest trenches.",
         size: "20-30 cm",
         habitat: "Deep ocean trenches",
@@ -488,7 +488,7 @@ export const oceanZones = [
       },
       {
         name: "Deep-sea Foraminifera",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://animalsasobjects.org/images/filo/Foram-elphidium_hg.jpg",
         description: "Single-celled organisms with shells that accumulate on the deep ocean floor.",
         size: "Microscopic to 20cm",
         habitat: "Deep ocean sediments",
@@ -497,7 +497,7 @@ export const oceanZones = [
       },
       {
         name: "Mariana Trench Amoeba",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://i.dailymail.co.uk/i/pix/2011/10/24/article-2052727-0E818C0500000578-417_468x286.jpg",
         description: "Single-celled organisms thriving at the deepest point on Earth.",
         size: "Microscopic",
         habitat: "Challenger Deep",
@@ -506,7 +506,7 @@ export const oceanZones = [
       },
       {
         name: "Hadal Polychaete Worms",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://en.wikipedia.org/wiki/Polynoidae#/media/File:Lepidonotus_oculatus_MV_F164625.png",
         description: "Segmented worms that burrow in the sediment of the deepest trenches.",
         size: "2-10 cm",
         habitat: "Trench sediments",
@@ -542,7 +542,7 @@ export const oceanZones = [
     marineLife: [
       {
         name: "Megalodon",
-        image: "https://images.pexels.com/photos/544551/pexels-photo-544551.jpeg",
+        image: "https://asset.kompas.com/crops/QqTiGIL3lFxiX78TcdE7HI9DNRQ=/0x0:1000x667/750x500/data/photo/2022/07/07/62c5e3a270f42.jpg",
         description: "The largest shark that ever lived, ruling ancient oceans with teeth the size of human hands.",
         size: "15-18 meters",
         habitat: "Prehistoric warm seas",
@@ -551,7 +551,7 @@ export const oceanZones = [
       },
       {
         name: "The Kraken",
-        image: "https://images.pexels.com/photos/3046637/pexels-photo-3046637.jpeg",
+        image: "http://morbidlybeautiful.com/wp-content/uploads/2020/10/kraken.jpg",
         description: "Legendary colossal squid of Norse mythology, capable of destroying entire ships with its massive tentacles.",
         size: "30+ meters",
         habitat: "Deep Nordic seas",
@@ -560,7 +560,7 @@ export const oceanZones = [
       },
       {
         name: "Leviathan Whale",
-        image: "https://images.pexels.com/photos/64219/dolphin-marine-mammals-water-sea-64219.jpeg",
+        image: "https://i2-prod.mirror.co.uk/article26833958.ece/ALTERNATES/s1023/0_Livyatan-melvillei.jpg",
         description: "Prehistoric sperm whale with massive teeth, the apex predator of ancient seas.",
         size: "13-17 meters",
         habitat: "Miocene oceans",
@@ -569,7 +569,7 @@ export const oceanZones = [
       },
       {
         name: "Dunkleosteus",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://static.wikia.nocookie.net/animals/images/e/e5/Dunkleosteus.png/revision/latest/scale-to-width-down/1000?cb=20240728151402",
         description: "Armored prehistoric fish with bone-crushing jaws instead of teeth, terror of Devonian seas.",
         size: "8-10 meters",
         habitat: "Devonian seas",
@@ -578,7 +578,7 @@ export const oceanZones = [
       },
       {
         name: "Basilosaurus",
-        image: "https://images.pexels.com/photos/64219/dolphin-marine-mammals-water-sea-64219.jpeg",
+        image: "https://static.wikia.nocookie.net/walkingwith/images/7/7a/Promo_Basilosaurus.jpg/revision/latest/scale-to-width-down/1000?cb=20130629083626",
         description: "Ancient serpentine whale, one of the first fully aquatic whales with a snake-like body.",
         size: "15-20 meters",
         habitat: "Eocene seas",
@@ -587,7 +587,7 @@ export const oceanZones = [
       },
       {
         name: "Leedsichthys",
-        image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg",
+        image: "https://static.wikia.nocookie.net/animals/images/e/e7/MA_00203280_jzzkfv.jpg/revision/latest/scale-to-width-down/1000?cb=20200531131037",
         description: "The largest bony fish that ever lived, a gentle giant that filter-fed like modern whale sharks.",
         size: "16-17 meters",
         habitat: "Jurassic seas",
@@ -596,7 +596,7 @@ export const oceanZones = [
       },
       {
         name: "Helicoprion",
-        image: "https://images.pexels.com/photos/544551/pexels-photo-544551.jpeg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt3CIQHy-Iy5Du-Xff1d8nuv9WJbtyoEUlkrClNrqhZz2-gUxiiyaVMDjmUrIK3BIEX-QgiLVjCeLx5TRyBYcpXIC5t3NXhH4zycX8mQjevo37zep3_pyFcCgRTmt74vEQ8jyLk5lCHdk/s1280/Helicoprion.+Photo+James+St.+John++Flickr++CC+BY+2.0+%25281%2529.jpg",
         description: "Bizarre prehistoric shark with a spiral whorl of teeth, nicknamed the 'buzz-saw shark.'",
         size: "3-12 meters",
         habitat: "Permian seas",
@@ -605,7 +605,7 @@ export const oceanZones = [
       },
       {
         name: "Pliosaurus",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://static.wikia.nocookie.net/jurassic-world-the-moblie-game/images/b/b1/Pliosaurus_lvl_20.jpg/revision/latest/scale-to-width-down/1000?cb=20230406054629",
         description: "Massive marine reptile with the strongest bite of any known animal, the 'T. rex of the seas.'",
         size: "10-15 meters",
         habitat: "Jurassic oceans",
@@ -614,7 +614,7 @@ export const oceanZones = [
       },
       {
         name: "Ammonite Giant",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://www.syfy.com/sites/syfy/files/styles/hero_image__large__computer__alt_1_5x/public/2021/11/gettyimages-1301755096.jpg",
         description: "Massive spiral-shelled cephalopods that dominated ancient seas for over 300 million years.",
         size: "Up to 2 meters",
         habitat: "Ancient seas worldwide",
@@ -623,7 +623,7 @@ export const oceanZones = [
       },
       {
         name: "Sea Serpent",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://wiki.leagueoflegends.com/en-us/images/thumb/02BW030-full.png/1920px-02BW030-full.png?af08a",
         description: "Legendary marine creature reported by sailors worldwide, possibly inspired by oarfish or whale sightings.",
         size: "20-60 meters",
         habitat: "Deep ocean waters",
@@ -632,7 +632,7 @@ export const oceanZones = [
       },
       {
         name: "Mosasaurus",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://images.dinosaurpictures.org/mosasaurus3_8967.jpg",
         description: "Gigantic marine lizard that ruled the seas during the age of dinosaurs with powerful flippers.",
         size: "12-18 meters",
         habitat: "Cretaceous seas",
@@ -641,7 +641,7 @@ export const oceanZones = [
       },
       {
         name: "Charybdis",
-        image: "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg",
+        image: "https://static.wikia.nocookie.net/the-demonic-paradise/images/d/d1/Charybdis.jpg/revision/latest/scale-to-width-down/1000?cb=20151003164751",
         description: "Mythical whirlpool monster from Greek mythology that could swallow entire ships.",
         size: "Massive whirlpool",
         habitat: "Strait of Messina",
