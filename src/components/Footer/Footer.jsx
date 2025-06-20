@@ -3,7 +3,7 @@ import { Anchor, Compass, AlertTriangle, Skull, Crown, Waves } from 'lucide-reac
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-slate-900 via-gray-900 to-black border-t border-emerald-500/30 py-16 relative overflow-hidden">
+    <footer className="bg-gradient-to-b from-slate-900 via-gray-900 to-black border-t border-emerald-500/30 py-12 sm:py-16 relative overflow-hidden">
       {/* Mystical background effects */}
       <div className="absolute inset-0">
         {/* Floating mystical particles */}
@@ -47,32 +47,32 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Warning Banner */}
-        <div className="bg-red-900/30 border border-red-500/50 rounded-lg p-6 mb-12 backdrop-blur-sm">
-          <div className="flex items-center justify-center space-x-3 mb-4">
-            <AlertTriangle className="h-8 w-8 text-red-400 animate-pulse" />
-            <h3 className="text-2xl font-bold text-red-300">END OF HUMAN EXPLORATION</h3>
-            <AlertTriangle className="h-8 w-8 text-red-400 animate-pulse" />
+        <div className="bg-red-900/30 border border-red-500/50 rounded-lg p-4 sm:p-6 mb-8 sm:mb-12 backdrop-blur-sm">
+          <div className="flex items-center justify-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
+            <AlertTriangle className="h-6 w-6 sm:h-8 sm:w-8 text-red-400 animate-pulse" />
+            <h3 className="text-lg sm:text-2xl font-bold text-red-300 text-center">END OF HUMAN EXPLORATION</h3>
+            <AlertTriangle className="h-6 w-6 sm:h-8 sm:w-8 text-red-400 animate-pulse" />
           </div>
-          <div className="text-center space-y-3">
-            <p className="text-red-200 text-lg font-medium">
+          <div className="text-center space-y-2 sm:space-y-3">
+            <p className="text-red-200 text-base sm:text-lg font-medium">
               🚫 MAXIMUM SAFE DEPTH EXCEEDED 🚫
             </p>
-            <p className="text-red-100/80 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-red-100/80 max-w-4xl mx-auto leading-relaxed text-sm sm:text-base">
               Beyond this point, no human technology has ventured and returned. The crushing pressures, 
               sub-zero temperatures, and unknown forces make further exploration impossible with current technology. 
               What lies deeper remains in the realm of legend and imagination.
             </p>
-            <div className="flex justify-center items-center space-x-6 mt-4 text-sm">
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 mt-4 text-xs sm:text-sm">
               <div className="flex items-center space-x-2 text-red-300">
-                <Skull className="h-4 w-4" />
+                <Skull className="h-3 w-3 sm:h-4 sm:w-4" />
                 <span>Pressure: 1,100+ atm</span>
               </div>
               <div className="flex items-center space-x-2 text-blue-300">
-                <Waves className="h-4 w-4" />
+                <Waves className="h-3 w-3 sm:h-4 sm:w-4" />
                 <span>Temperature: Sub-zero</span>
               </div>
               <div className="flex items-center space-x-2 text-purple-300">
-                <Crown className="h-4 w-4" />
+                <Crown className="h-3 w-3 sm:h-4 sm:w-4" />
                 <span>Status: Mythical</span>
               </div>
             </div>
@@ -81,51 +81,51 @@ const Footer = () => {
 
         {/* Main Footer Content */}
         <div className="text-center">
-          <div className="flex items-center justify-center space-x-3 mb-6">
-            <Anchor className="h-10 w-10 text-emerald-400" />
-            <span className="text-3xl font-bold bg-gradient-to-r from-emerald-300 to-cyan-300 bg-clip-text text-transparent">
+          <div className="flex items-center justify-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+            <Anchor className="h-8 w-8 sm:h-10 sm:w-10 text-emerald-400" />
+            <span className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-emerald-300 to-cyan-300 bg-clip-text text-transparent">
               Ocean Explorer
             </span>
-            <Compass className="h-10 w-10 text-emerald-400" />
+            <Compass className="h-8 w-8 sm:h-10 sm:w-10 text-emerald-400" />
           </div>
           
-          <p className="text-white/70 mb-8 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-white/70 mb-6 sm:mb-8 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed px-4">
             You have journeyed from the sunlit surface to the deepest trenches known to science, 
             and beyond into the realm of legends. From coral reefs to mythical monsters, 
             you've explored the full spectrum of our planet's most mysterious frontier.
           </p>
 
           {/* Exploration Stats */}
-          <div className="grid md:grid-cols-4 gap-6 mb-10">
-            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-4 border border-emerald-500/20">
-              <div className="text-2xl font-bold text-emerald-400 mb-1">6</div>
-              <div className="text-white/60 text-sm">Ocean Zones</div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-10">
+            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-emerald-500/20">
+              <div className="text-xl sm:text-2xl font-bold text-emerald-400 mb-1">6</div>
+              <div className="text-white/60 text-xs sm:text-sm">Ocean Zones</div>
               <div className="text-emerald-300 text-xs">Explored</div>
             </div>
-            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-4 border border-cyan-500/20">
-              <div className="text-2xl font-bold text-cyan-400 mb-1">15,000m</div>
-              <div className="text-white/60 text-sm">Maximum Depth</div>
+            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-cyan-500/20">
+              <div className="text-xl sm:text-2xl font-bold text-cyan-400 mb-1">15,000m</div>
+              <div className="text-white/60 text-xs sm:text-sm">Maximum Depth</div>
               <div className="text-cyan-300 text-xs">Reached</div>
             </div>
-            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-4 border border-blue-500/20">
-              <div className="text-2xl font-bold text-blue-400 mb-1">60+</div>
-              <div className="text-white/60 text-sm">Marine Species</div>
+            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-blue-500/20">
+              <div className="text-xl sm:text-2xl font-bold text-blue-400 mb-1">60+</div>
+              <div className="text-white/60 text-xs sm:text-sm">Marine Species</div>
               <div className="text-blue-300 text-xs">Discovered</div>
             </div>
-            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-4 border border-purple-500/20">
-              <div className="text-2xl font-bold text-purple-400 mb-1">∞</div>
-              <div className="text-white/60 text-sm">Mysteries</div>
+            <div className="bg-black/30 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-purple-500/20">
+              <div className="text-xl sm:text-2xl font-bold text-purple-400 mb-1">∞</div>
+              <div className="text-white/60 text-xs sm:text-sm">Mysteries</div>
               <div className="text-purple-300 text-xs">Remaining</div>
             </div>
           </div>
 
           {/* Journey Summary */}
-          <div className="bg-gradient-to-r from-emerald-900/30 to-cyan-900/30 rounded-xl p-8 mb-10 border border-emerald-500/30">
-            <h4 className="text-xl font-bold text-emerald-300 mb-4 flex items-center justify-center">
-              <Compass className="h-5 w-5 mr-2" />
+          <div className="bg-gradient-to-r from-emerald-900/30 to-cyan-900/30 rounded-xl p-4 sm:p-8 mb-8 sm:mb-10 border border-emerald-500/30">
+            <h4 className="text-lg sm:text-xl font-bold text-emerald-300 mb-3 sm:mb-4 flex items-center justify-center">
+              <Compass className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
               Your Deep Sea Journey
             </h4>
-            <div className="grid md:grid-cols-3 gap-6 text-sm">
+            <div className="grid sm:grid-cols-3 gap-4 sm:gap-6 text-xs sm:text-sm">
               <div className="space-y-2">
                 <h5 className="font-semibold text-cyan-300">Scientific Zones</h5>
                 <ul className="text-white/70 space-y-1">
@@ -160,42 +160,42 @@ const Footer = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="flex justify-center space-x-8 text-white/50 mb-8">
-            <button className="hover:text-emerald-400 transition-colors flex items-center space-x-1">
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-white/50 mb-6 sm:mb-8 text-sm">
+            <button className="hover:text-emerald-400 transition-colors flex items-center space-x-1 touch-manipulation">
               <span>🔬</span>
               <span>Research</span>
             </button>
-            <button className="hover:text-cyan-400 transition-colors flex items-center space-x-1">
+            <button className="hover:text-cyan-400 transition-colors flex items-center space-x-1 touch-manipulation">
               <span>🌊</span>
               <span>Conservation</span>
             </button>
-            <button className="hover:text-blue-400 transition-colors flex items-center space-x-1">
+            <button className="hover:text-blue-400 transition-colors flex items-center space-x-1 touch-manipulation">
               <span>📚</span>
               <span>Education</span>
             </button>
-            <button className="hover:text-purple-400 transition-colors flex items-center space-x-1">
+            <button className="hover:text-purple-400 transition-colors flex items-center space-x-1 touch-manipulation">
               <span>🗺️</span>
               <span>Exploration</span>
             </button>
           </div>
 
           {/* Final Message */}
-          <div className="border-t border-emerald-500/20 pt-8">
-            <p className="text-emerald-300 font-medium text-lg mb-2">
+          <div className="border-t border-emerald-500/20 pt-6 sm:pt-8">
+            <p className="text-emerald-300 font-medium text-base sm:text-lg mb-2">
               "The ocean is the last frontier on our own planet"
             </p>
             <p className="text-white/50 text-sm mb-4">
               Thank you for diving deep into Earth's final frontier. The mysteries of the deep continue to call to future explorers.
             </p>
-            <div className="text-white/40 text-sm">
+            <div className="text-white/40 text-xs sm:text-sm">
               © 2024 Ocean Explorer • Journey Complete • Depths Conquered • Legends Discovered
             </div>
             
             {/* Depth Achievement Badge */}
-            <div className="mt-6 inline-flex items-center space-x-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-4 py-2 rounded-full">
-              <Crown className="h-4 w-4 text-yellow-300" />
-              <span className="text-white font-medium text-sm">Deep Sea Explorer - Maximum Depth Achieved</span>
-              <Crown className="h-4 w-4 text-yellow-300" />
+            <div className="mt-4 sm:mt-6 inline-flex items-center space-x-2 bg-gradient-to-r from-emerald-600 to-cyan-600 px-3 sm:px-4 py-2 rounded-full">
+              <Crown className="h-3 w-3 sm:h-4 sm:w-4 text-yellow-300" />
+              <span className="text-white font-medium text-xs sm:text-sm">Deep Sea Explorer - Maximum Depth Achieved</span>
+              <Crown className="h-3 w-3 sm:h-4 sm:w-4 text-yellow-300" />
             </div>
           </div>
         </div>
