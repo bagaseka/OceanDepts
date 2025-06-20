@@ -3,7 +3,7 @@ import { Fish, ArrowRight } from 'lucide-react';
 
 const ZoneSection = ({ zone, index, setSelectedZone }) => {
   return (
-    <section className="min-h-screen relative flex items-center">
+    <section className="min-h-screen relative flex items-center px-4 sm:px-6 lg:px-8">
       {/* Zone-specific overlay */}
       <div 
         className="absolute inset-0 transition-opacity duration-1000"
@@ -25,16 +25,16 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
         }}
       />
       
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto py-12 sm:py-16 lg:py-20">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Zone Information */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent leading-tight">
                 {zone.name}
               </h2>
-              <div className="flex flex-wrap gap-4 mb-6">
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+              <div className="flex flex-wrap gap-2 sm:gap-4 mb-4 sm:mb-6">
+                <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
                   index === 0 ? 'bg-cyan-500/20 text-cyan-300' :
                   index === 1 ? 'bg-blue-500/20 text-blue-300' :
                   index === 2 ? 'bg-indigo-500/20 text-indigo-300' :
@@ -44,7 +44,7 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
                 }`}>
                   {zone.depth}
                 </span>
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
                   index === 0 ? 'bg-cyan-500/20 text-cyan-300' :
                   index === 1 ? 'bg-blue-500/20 text-blue-300' :
                   index === 2 ? 'bg-indigo-500/20 text-indigo-300' :
@@ -54,7 +54,7 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
                 }`}>
                   {zone.temp}
                 </span>
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                <span className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
                   index === 0 ? 'bg-cyan-500/20 text-cyan-300' :
                   index === 1 ? 'bg-blue-500/20 text-blue-300' :
                   index === 2 ? 'bg-indigo-500/20 text-indigo-300' :
@@ -65,13 +65,13 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
                   {zone.pressure}
                 </span>
               </div>
-              <p className="text-lg text-white/90 leading-relaxed mb-6">
+              <p className="text-base sm:text-lg text-white/90 leading-relaxed mb-4 sm:mb-6">
                 {zone.description}
               </p>
               
               <button
                 onClick={() => setSelectedZone(index)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-lg ${
+                className={`w-full sm:w-auto px-4 sm:px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center sm:justify-start space-x-2 shadow-lg touch-manipulation ${
                   index === 0 ? 'bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-cyan-500 hover:to-blue-600 hover:shadow-cyan-500/25' :
                   index === 1 ? 'bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-500 hover:to-indigo-600 hover:shadow-blue-500/25' :
                   index === 2 ? 'bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-500 hover:to-purple-600 hover:shadow-indigo-500/25' :
@@ -87,8 +87,8 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
           </div>
 
           {/* Marine Life Preview */}
-          <div className="space-y-6">
-            <h3 className={`text-2xl font-semibold mb-6 flex items-center ${
+          <div className="space-y-4 sm:space-y-6">
+            <h3 className={`text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 flex items-center ${
               index === 0 ? 'text-cyan-400' :
               index === 1 ? 'text-blue-400' :
               index === 2 ? 'text-indigo-400' :
@@ -96,23 +96,23 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
               index === 4 ? 'text-gray-400' :
               'text-emerald-400'
             }`}>
-              <Fish className="h-6 w-6 mr-2" />
+              <Fish className="h-5 w-5 sm:h-6 sm:w-6 mr-2" />
               Marine Life Preview
             </h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {zone.marineLife.slice(0, 4).map((creature, creatureIndex) => (
                 <div 
                   key={creatureIndex}
-                  className="bg-black/30 backdrop-blur-sm rounded-lg overflow-hidden border border-white/20 hover:bg-black/40 transition-all duration-300 cursor-pointer group hover:scale-105"
+                  className="bg-black/30 backdrop-blur-sm rounded-lg overflow-hidden border border-white/20 hover:bg-black/40 transition-all duration-300 cursor-pointer group hover:scale-105 touch-manipulation"
                   onClick={() => setSelectedZone(index)}
                 >
                   <img 
                     src={creature.image} 
                     alt={creature.name}
-                    className="w-full h-24 object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-20 sm:h-24 object-cover group-hover:scale-110 transition-transform duration-300"
                   />
-                  <div className="p-3">
-                    <h4 className={`text-sm font-semibold mb-1 ${
+                  <div className="p-2 sm:p-3">
+                    <h4 className={`text-xs sm:text-sm font-semibold mb-1 ${
                       index === 0 ? 'text-cyan-300' :
                       index === 1 ? 'text-blue-300' :
                       index === 2 ? 'text-indigo-300' :
@@ -122,7 +122,7 @@ const ZoneSection = ({ zone, index, setSelectedZone }) => {
                     }`}>
                       {creature.name}
                     </h4>
-                    <p className="text-xs text-white/60 italic">{creature.scientificName}</p>
+                    <p className="text-xs text-white/60 italic leading-tight">{creature.scientificName}</p>
                   </div>
                 </div>
               ))}
